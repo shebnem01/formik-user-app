@@ -34,6 +34,7 @@ export default class UserForm extends Component {
   }
   handleSubmit(values, options) {
     options.resetForm();
+    toast.success("User added successfully")
     this.props.addUser(values);
   }
   handleFileChange(event, setFieldValue) {

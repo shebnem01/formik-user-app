@@ -29,9 +29,10 @@
 }
 
 .title {
-    margin-bottom: 30px;
+    margin: 30px 0;
     font-size: 40px;
     color: #146eb4;
+    padding-top: 40px;
 }
 td img{
     width: 50px;
